@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  padding: 50px 100px;
+  padding-top: 150px;
+  gap: 100px;
+  overflow: hidden;
+
+  /* scroll-behavior: smooth; */
+}
+
+/* ---------- LEFT ---------- */
+.left {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  padding-left:  30px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left h1 {
+  font-size: 115px;
+  font-weight: 400;
+  /* font-family: "Arimo", sans-serif; */
+}
+
+.bottom-left {
+  width: 100%;
+  height: 40%;
+}
+
+.color {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.color h5 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.colbrown,
+.colblack {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.colbrown {
+  background: #7E6350;
+}
+
+.colblack {
+  background: #000000;
+}
+
+.bottom-left h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.bottom-left p {
+  font-size: 18px;
+  width: 70%;
+  line-height: 26px;
+}
+
+/* ---------- RIGHT ---------- */
+.right {
+  margin-top: 50px;
+  width: 30%;
+  height: 100%;
+  background: #ac9b9b;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.right-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  /* border-bottom: 2px solid #000; */
+}
+
+.right-top h4 {
+  /* font-size: 14px; */
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.right-top h5 {
+  /* font-size: 18px; */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-top i {
+  color: #f7b500;
+  /* font-size: 18px; */
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-gola{
+position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    top: 150px;
+    right: -60px;
+    color: rgb(235, 231, 231);
+}
+.right-gola p{
+    text-align: center;
+    padding-left: 15px;
+    /* font-size: 15px; */
+}
+.right-left p{
+    position: absolute;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    left: -44px;
+    bottom: 40px;
+    font-size: 22px;
+    font-weight: 500;
+
+}
